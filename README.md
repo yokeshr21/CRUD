@@ -2,6 +2,8 @@
 A simple Order Management REST API built using Spring Boot, Spring Data JPA, and MySQL.
 This project implements full CRUD operations (Create, Read, Update, Delete) for orders.
 
+
+
 ## 🚀 Tech Stack
 Java
 Spring Boot
@@ -11,6 +13,8 @@ MySQL
 Maven
 Postman (for API testing)
 
+
+
 ## 📌 Features
 Create a new order
 View all orders
@@ -19,6 +23,8 @@ Update existing order
 Delete order
 RESTful API design
 Database integration with MySQL
+
+
 
 ## 🗂️ Project Structure
 
@@ -33,6 +39,9 @@ src/main/java
      ├── model
      │    └── Order.java
      └── OrderServiceApplication.java
+
+
+     
      
 ## ⚙️ Database Configuration
 MySQL database name:
@@ -46,6 +55,8 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+
 
 ## 🔗 API Endpoints
 POST
@@ -67,6 +78,8 @@ Update order
 DELETE
 /api/orders/{id}
 Delete order
+
+
 
 ## 🧪 Sample Request (POST / PUT)
 {

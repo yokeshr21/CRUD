@@ -4,6 +4,8 @@ This project implements full CRUD operations (Create, Read, Update, Delete) for 
 
 
 
+
+
 ## 🚀 Tech Stack
 - Java
 - Spring Boot
@@ -12,6 +14,8 @@ This project implements full CRUD operations (Create, Read, Update, Delete) for 
 - MySQL
 - Maven
 - Postman (for API testing)
+
+
 
 
 
@@ -26,19 +30,26 @@ This project implements full CRUD operations (Create, Read, Update, Delete) for 
 
 
 
+
+
 ## 🗂️ Project Structure
 
 src/main/java
  └── com.example.orderservice
      ├── controller
-     │    └── OrderController.java
+     │    └── 
+     OrderController.java
      ├── service
-     │    └── OrderService.java
+     │    └──
+     OrderService.java
      ├── repository
-     │    └── OrderRepository.java
+     │    └── 
+     OrderRepository.java
      ├── model
-     │    └── Order.java
+     │    └── 
+     Order.java
      └── OrderServiceApplication.java
+
 
 
      
@@ -55,6 +66,8 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+
 
 
 
@@ -78,6 +91,8 @@ Update order
 DELETE
 /api/orders/{id}
 Delete order
+
+
 
 
 

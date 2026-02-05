@@ -59,6 +59,8 @@ MySQL database name:
 order_db
 
 application.properties:
+
+
 spring.datasource.url=jdbc:mysql://localhost:3306/order_db
 spring.datasource.username=root
 spring.datasource.password=your_password

@@ -1,28 +1,28 @@
 # 🛒 Order Management System (Spring Boot + MySQL)
-A simple Order Management REST API built using Spring Boot, Spring Data JPA, and MySQL.
+A Simple Order Management REST API built using Spring Boot, Spring Data JPA, and MySQL.
 This project implements full CRUD operations (Create, Read, Update, Delete) for orders.
 
 
 
 ## 🚀 Tech Stack
-Java
-Spring Boot
-Spring Web
-Spring Data JPA
-MySQL
-Maven
-Postman (for API testing)
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- MySQL
+- Maven
+- Postman (for API testing)
 
 
 
 ## 📌 Features
-Create a new order
-View all orders
-View order by ID
-Update existing order
-Delete order
-RESTful API design
-Database integration with MySQL
+- Create a new order
+- View all orders
+- View order by ID
+- Update existing order
+- Delete order
+- RESTful API design
+- Database integration with MySQL
 
 
 
